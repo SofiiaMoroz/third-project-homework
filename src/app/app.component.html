@@ -8,3 +8,8 @@
   <li>Simply output Odd - Number or Even - Number in the two components</li>
   <li>Style the element (e.g. paragraph) holding your output text differently in both components</li>
 </ol>
+<hr>
+
+<app-game-control (intervalFired)="onIntervalFired($event)"></app-game-control>
+<app-odd *ngFor="let oddNumber of oddNumbers" [number]="oddNumber"></app-odd>
+<app-even *ngFor="let evenNumber of evenNumbers" [number]="evenNumber"></app-even>

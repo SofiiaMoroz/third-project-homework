@@ -1,0 +1,24 @@
+.btn {
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-start {
+    background-color: green;
+}
+.btn-start:hover {
+    background-color: darkgreen;
+}
+
+.btn-stop {
+    background-color: red;
+}
+.btn-stop:hover {
+    background-color: darkred;
+}
